@@ -1,0 +1,16 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+    cout << "SISD (Single Instruction Single Data) Simulation" << endl;
+
+    int data1 = 10;
+    cout << "Initial data: " << data1 << endl;
+    data1 = data1 + 5; // Single instruction operating on single data
+    cout << "Data after Proocessing: " << data1 << endl;
+    cout << "SISD Simulation complete!" << endl;
+
+
+    return 0;
+}
